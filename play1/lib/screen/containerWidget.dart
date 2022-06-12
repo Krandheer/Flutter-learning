@@ -26,7 +26,7 @@ class ContainerWidget extends StatelessWidget {
                   color: Colors.green,
                   // borderRadius: BorderRadius.circular(20),
                   // shape: BoxShape.circle,
-                  border: Border.all(color: Colors.red, width: 5)),
+                  border: Border.all(color: Colors.black, width: 5)),
               // alignment: Alignment.center,
               child: const Text("body content"),
             ),
