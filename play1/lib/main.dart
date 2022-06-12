@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:play1/screen/containerWidget.dart';
 import 'package:play1/screen/home.dart';
+import 'package:play1/screen/rowWidget.dart';
 import 'package:play1/screen/scaffoldText.dart';
 
 
@@ -14,12 +15,12 @@ class RecipeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Recipe Calculator',
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter learning',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.amber,
-        ).copyWith(secondary: Colors.redAccent),
+       primarySwatch: Colors.red
       ),
-      home: const ContainerWidget(),
+      home: const RowColumnsWidget(),
     );
   }
 }
